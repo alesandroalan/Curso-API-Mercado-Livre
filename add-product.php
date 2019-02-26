@@ -55,7 +55,7 @@ require_once 'configApp.php';
                                             </label>
                                             <input class="form-control" id="pictures" name="pictures"
                                                    placeholder="http://domain.com/my-image.jpg" type="text"
-                                                   value="https://cdn.pixabay.com/photo/2014/03/24/17/15/clock-295201_960_720.png"/>
+                                                   value="https://upload.wikimedia.org/wikipedia/en/f/fd/Touch-watch-phone_4_450.jpg"/>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label" for="category_id">
