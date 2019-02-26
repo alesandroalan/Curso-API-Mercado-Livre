@@ -24,5 +24,6 @@ require 'configApp.php';
         </div>
     </div>
 <?php
+require_once 'js.php';
 require_once 'footer.php';
 ?>

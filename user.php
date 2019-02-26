@@ -7,7 +7,6 @@ require 'configApp.php';
         <div class="row">
             <div class="col">
                 <?php
-                session_start();
                 $meli = new Meli($appId, $secretKey);
                 $response = $meli->get('/users/me', array('access_token' => $_SESSION['access_token']));
 
@@ -46,5 +45,6 @@ require 'configApp.php';
         </div>
     </div>
 <?php
+require_once 'js.php';
 require_once 'footer.php';
 ?>

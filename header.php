@@ -11,5 +11,6 @@
 </head>
 <body>
 <?php
+include_once 'checklogin.php';
 include_once 'menu.php';
 ?>
