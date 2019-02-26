@@ -21,7 +21,7 @@
                     Anúncios
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="home.php">Adicionar</a>
+                    <a class="dropdown-item" href="add-product.php">Adicionar</a>
                     <a class="dropdown-item" href="home.php">Listar</a>
                 </div>
             </li>
