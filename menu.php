@@ -7,7 +7,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" style="width: 100%;">
             <li class="nav-item">
                 <a class="nav-link" href="home.php">Home</a>
             </li>
@@ -22,14 +22,14 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="add-product.php">Adicionar</a>
-                    <a class="dropdown-item" href="home.php">Listar</a>
+                    <a class="dropdown-item" href="list-products.php">Listar</a>
                 </div>
             </li>
         </ul>
+        <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="logout.php">Sair</a>
+            </li>
+        </ul>
     </div>
-    <ul class="navbar-nav justify-content-end">
-        <li class="nav-item">
-            <a class="nav-link active" href="logout.php">Sair</a>
-        </li>
-    </ul>
 </nav>
