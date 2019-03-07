@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="https://www.youtube.com/channel/UCfkk9UGL2DLtdunYuQiK4TQ" target="_blank">
         Curso API ML
     </a>
@@ -23,6 +23,15 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="add-product.php">Adicionar</a>
                     <a class="dropdown-item" href="list-products.php">Listar</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Perguntas
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="list-questions.php">Listar</a>
                 </div>
             </li>
         </ul>
