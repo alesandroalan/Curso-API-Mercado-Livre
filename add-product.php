@@ -29,6 +29,7 @@ require_once 'configApp.php';
                                         <div class="form-group">
                                             <label class="control-label" for="listing_type_id">
                                                 Selecione o tipo de anúncio
+                                            </label>
                                             <select class="select form-control" id="listing_type_id"
                                                     name="listing_type_id">
                                                 <option value="bronze">
@@ -45,9 +46,9 @@ require_once 'configApp.php';
                                                 </option>
 
                                             </select>
-                                            <span class="help-block" id="hint_listing_type_id">
-       Consulte todos em: https://api.mercadolibre.com/sites/MLB/listing_types
-      </span>
+                                            <small id="ltypeHelp" class="form-text text-muted">
+                                                Consulte todos em: https://api.mercadolibre.com/sites/MLB/listing_types
+                                            </small>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label" for="pictures">
@@ -57,23 +58,27 @@ require_once 'configApp.php';
                                                    placeholder="http://domain.com/my-image.jpg" type="text"
                                                    value="https://upload.wikimedia.org/wikipedia/en/f/fd/Touch-watch-phone_4_450.jpg"/>
                                         </div>
+
                                         <div class="form-group">
                                             <label class="control-label" for="category_id">
                                                 ID da categoria
+                                            </label>
                                             <input class="form-control" id="category_id" name="category_id"
                                                    placeholder="ex: MLB422600" type="text" value="MLB260864"/>
-                                            <span class="help-block" id="hint_category_id">
-       Escolha a sua categoria em  https://api.mercadolibre.com/sites/MLB/categories
-      </span>
+                                            <small id="catHelp" class="form-text text-muted">
+                                                Escolha a sua categoria em  https://api.mercadolibre.com/sites/MLB/categories
+                                            </small>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label" for="text2">
                                                 Quantidade em estoque
+                                            </label>
                                             <input class="form-control" id="available_quantity" name="available_quantity" type="number" value="4"/>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label" for="condition">
                                                 Modo da compra
+                                            </label>
                                             <select class="select form-control" id="buying_mode" name="buying_mode">
                                                 <option value="buy_it_now" selected>
                                                     buy_it_now
@@ -93,6 +98,7 @@ require_once 'configApp.php';
                                         <div class="form-group">
                                             <label class="control-label" for="condition">
                                                 Condi&ccedil;&atilde;o do produto
+                                            </label>
                                             <select class="select form-control" id="condition" name="condition">
                                                 <option value="new" selected>
                                                     Novo
@@ -102,14 +108,15 @@ require_once 'configApp.php';
                                         <div class="form-group">
                                             <label class="control-label" for="site_id">
                                                 ID do site
+                                            </label>
                                             <select class="select form-control" id="site_id" name="site_id">
                                                 <option value="MLB" selected>
                                                     MLB
                                                 </option>
                                             </select>
-                                            <span class="help-block" id="hint_site_id">
-       MLB (Mercado Livre Brasil)
-      </span>
+                                            <small id="siteHelp" class="form-text text-muted">
+                                                MLB (Mercado Livre Brasil)
+                                            </small>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label" for="price">
