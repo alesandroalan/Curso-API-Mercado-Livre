@@ -34,6 +34,11 @@
                     <a class="dropdown-item" href="list-questions.php">Listar</a>
                 </div>
             </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="category-suggestion.php" role="button">
+                    Sugestão de categorias
+                </a>
+            </li>
         </ul>
         <ul class="navbar-nav justify-content-end">
             <li class="nav-item">

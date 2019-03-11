@@ -204,4 +204,22 @@ if ($action == "addprodduct") {
     }catch (Exception $e){
         echo "Erro: ". $e->getMessage();
     }
+}else if ($action == "getsuggestion") {
+    $title = $_POST["title"];
+    $params = [
+        [
+            "title" => $title
+        ]
+    ];
+
+    try {
+
+        $meli = new Meli($appId, $secretKey);
+        $response = $meli->post('/sites/MLB/category_predictor/predict', $params);
+        if(isset($response['body']->status) && isset($response['body']->error) && $response['body']->status != 200)
+            throw new Exception($response['body']->message);
+        echo json_encode($response['body'][0]);
+    }catch (Exception $e){
+        echo "Erro: ". $e->getMessage();
+    }
 }
